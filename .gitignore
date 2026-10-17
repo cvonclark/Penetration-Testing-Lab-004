@@ -1,0 +1,9 @@
+# Never commit credentials, certificates with private keys, or Kerberos ticket/hash material
+*.kirbi
+*.ccache
+*.key
+*.pfx
+*.p12
+*kerberoast*.txt
+*.hash
+.env
